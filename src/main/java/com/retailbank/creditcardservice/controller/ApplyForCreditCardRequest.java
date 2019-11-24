@@ -1,4 +1,4 @@
-package com.retailbank.creditcardservice;
+package com.retailbank.creditcardservice.controller;
 
 public class ApplyForCreditCardRequest {
     private int citizenNumber;

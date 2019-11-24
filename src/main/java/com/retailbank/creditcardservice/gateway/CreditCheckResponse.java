@@ -1,7 +1,8 @@
-package com.retailbank.creditcardservice;
+package com.retailbank.creditcardservice.gateway;
 
 public class CreditCheckResponse {
     private Score score;
+    private String uuid;
 
     public Score getScore() {
         return score;
@@ -11,8 +12,12 @@ public class CreditCheckResponse {
         this.score = score;
     }
 
+    public String getUuid() {
+        return uuid;
+    }
+
     public enum Score {
-        HIGH
+        HIGH, LOW
     }
 
 
